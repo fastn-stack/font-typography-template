@@ -1,13 +1,7 @@
 # Welcome to your [FASTN site](https://fastn.io/)
 
-FASTN Blank Package Template Repo
+FASTN Font Typography Template Repo
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fifthtry/fastn-heroku&env[DOWNLOAD_BASE_URL]=https://raw.githubusercontent.com/fastn-stack/font-typography-template/main/)
-
-
-> 🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
-
-![doc-site](doc-site-example.png)
 
 
 ## 🚀 Project Structure
