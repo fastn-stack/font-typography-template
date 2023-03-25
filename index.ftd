@@ -1,51 +1,73 @@
--- import: fastn-stack.github.io/font-typography-template/assets
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fifthtry.github.io/package-doc/footer
 
 
 
--- ds.page: Welcome to your [FASTN site](https://fastn.io/)
+-- ds.page: 
+show-footer: true
+site-name: `<repo_name>` Package
 
--- ftd.column:
-align-self: center
+-- ds.page.footer:
 
--- chat.message-left: Yo! I am Amit Upadhyay, CEO of FifthTry, welcome to the new world of FTD.
+-- footer.fastn-footer:
+
+-- end: ds.page.footer
+
+-- pd.package: <repo_name> package
+name: <user_name>.github.io/<repo_name>
+
+This FTD font `<repo_name>` can be used for your ftd web projects. 
+
+You can use this <repo_name> inside the `FTD` project. Follow below instructions
+to use this font package.
+
+-- ds.h3: How to use <repo_name>?
+
+-- ds.code: Add this to your FASTN.ftd
+lang: ftd
+
+\-- fastn.dependency: <user_name>.github.io/<repo_name>
 
 -- ds.markdown: 
 
-You reached the right place, and from here let me assure you, your FTD journey is going superfast. 🙂
+To use this <repo_name> inside your `ftd` web project, if you are
+using our [doc-site](https://github.com/fifthtry/doc-site) theme then you just
+have to pass types to `ds.page`
 
--- end: chat.message-left
+Let's say you are using `doc-site` inside your project then, it's as simple as
+making a sandwich.
 
--- chat.message-right:  😊 Liking this chat component?
+-- ds.h3: How to use <repo_name> with `ds.page`?
 
--- ds.markdown:
+Just import <repo_name> inside your ftd file as shown below:
 
-[Click here to learn more](https://fifthtry.github.io/bling/chat/)
-👍
-
--- end: chat.message-right
-
--- end: ftd.column
-
--- ds.h1: How to use?
-
-It's very simple like making a sandwich. Create new `.ftd` file and just say:
-
--- ds.code: `-- ds.page` 
+-- ds.code:
 lang: ftd
 
-\-- ds.page: Your page title goes here
-
-Your page content goes here.
+\-- import: <user_name>.github.io/<repo_name>
 
 
--- ds.h1: Need sidebar at right side of page?
+-- ds.markdown: 
 
-Here it is, [use this document](https://fifthtry.github.io/doc-site/docs/right-sidebar/).
+and pass <repo_name> types to `ds.page` as shown below:
 
+-- ds.code:
+lang: ftd
 
--- ds.h1: 👀 Learn FTD and become a pro?
+\-- ds.page:
+types: $<repo_name>.types
 
-You are one click away, just check [our documentation](https://fastn.dev/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ds.markdown: 
+
+Once you add `types: <repo_name>.types` inside your ftd file, <repo_name> will
+be added as fastn default typography to your `ds.page` and to all components you
+add inside `ds.page`.
+
+Done! isn't it simple? Try this and don't forget to jump on our [Discord](https://discord.gg/bucrdvptYd)
+
+[Click here to know more](fastn-typography/).
 
 -- end: ds.page
+
+
