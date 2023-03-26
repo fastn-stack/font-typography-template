@@ -6,7 +6,7 @@
 
 -- ds.page: 
 show-footer: true
-site-name: `<repo_name>` Package
+site-name: `<repo_name>`
 
 -- ds.page.footer:
 
@@ -14,7 +14,7 @@ site-name: `<repo_name>` Package
 
 -- end: ds.page.footer
 
--- pd.package: <repo_name> package
+-- pd.package: <repo_name>
 name: <user_name>.github.io/<repo_name>
 
 This FTD font `<repo_name>` can be used for your ftd web projects. 
