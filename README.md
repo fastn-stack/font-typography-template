@@ -1,25 +1,6 @@
 # Welcome to your [FASTN site](https://fastn.io/)
 
-FASTN Font Typography Template Repo
-
-
-
-## 🚀 Project Structure
-
-Inside of your FASTN project, you'll see the following folders and files:
-
-```
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FASTN.ftd
-├── index.ftd
-└── README.md
-```
+FASTN <user_namr> Template Repo
 
 ## 🧞 Commands
 
