@@ -14,7 +14,7 @@
 
 -- ds.page: 
 show-footer: true
-site-name: `<repo_name>` Package
+site-name: `<repo_name>`
 
 -- ds.page.footer:
 
@@ -22,7 +22,7 @@ site-name: `<repo_name>` Package
 
 -- end: ds.page.footer
 
--- pd.package: <repo_name> package
+-- pd.package: <repo_name>
 name: <user_name>.github.io/<repo_name>
 
 Below are our default fastn `inherited` font types of <repo_name>.
