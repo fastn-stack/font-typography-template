@@ -22,7 +22,7 @@ site-name: `<repo_name>`
 -- end: ds.page.footer
 
 -- pd.package: <repo_name> package
-name: fastn-community.github.io/<repo_name>
+name: <user_name>.github.io/<repo_name>
 
 This FTD font `<repo_name>` can be used for your ftd web projects. 
 
@@ -41,7 +41,7 @@ making a sandwich.
 -- ds.code: Add this to your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: fastn-community.github.io/<repo_name>
+\-- fastn.dependency: <user_name>.github.io/<repo_name>
 
 -- ds.markdown:
 
@@ -50,7 +50,7 @@ Now import `<repo_name>` inside `.ftd` file as shown below:
 -- ds.code:
 lang: ftd
 
-\-- import: fastn-community.github.io/<repo_name>
+\-- import: <user_name>.github.io/<repo_name>
 
 
 -- ds.markdown: 
@@ -76,7 +76,7 @@ Then, add `<repo_name>` dependency into `FASTN.ftd` file.
 -- ds.code:
 lang: ftd
 
-\-- fastn.dependency: fastn-community.github.io/<repo_name>
+\-- fastn.dependency: <user_name>.github.io/<repo_name>
 
 -- ds.markdown:
 
@@ -86,7 +86,7 @@ Once you add above dependency, then import `<repo_name>` inside your
 -- ds.code:
 lang: ftd
 
-\-- import: fastn-community.github.io/<repo_name>
+\-- import: <user_name>.github.io/<repo_name>
 
 -- ds.markdown:
 
@@ -96,7 +96,7 @@ Done! `<repo_name>` is now added. Lets define a `page` component:
 lang: ftd
 download: my-ds.ftd
 
-\-- import: fastn-community.github.io/<repo_name>
+\-- import: <user_name>.github.io/<repo_name>
 
 \-- component page:
 caption title:
