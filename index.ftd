@@ -171,8 +171,8 @@ color: $inherited.colors.text
 
 -- cb.rendered.output:
 
--- site-doc.output:
-colors: $ftd.default-colors
+-- page: I am a page title
+types: $types
 
 I am `page` component body. Body can contain multiple paragraphs, links etc.
 
@@ -188,8 +188,6 @@ role: $inherited.types.heading-medium
 color: $inherited.colors.text
 
 -- end: page
-
--- end: site-doc.output
 
 -- end: cb.rendered.output
 
