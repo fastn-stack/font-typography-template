@@ -1,4 +1,5 @@
 -- import: <user_name>.github.io/<repo_name>/custom
+-- import: fifthtry.github.io/inter-font/assets as inter-assets
 
 ;; ⚠️fastn-builders::⚠️ before using this file please find and replace inter-font
 ;; with font package name you have given inside this package 
